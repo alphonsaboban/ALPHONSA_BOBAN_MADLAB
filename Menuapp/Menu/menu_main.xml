@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_privacy_policy"
+        android:orderInCategory="100"
+        android:title="Privacy_policy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="Help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_contact_us"
+        android:orderInCategory="100"
+        android:title="contact_Us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_terms_conditions"
+        android:orderInCategory="100"
+        android:title="Terms and Conditions"
+        app:showAsAction="never" />
+
+</menu>
